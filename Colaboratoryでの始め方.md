@@ -7,6 +7,7 @@
 //version check
 !go version
 
+// export all contents from file
 %%writefile helloworld.go
 package main
 
@@ -16,6 +17,8 @@ func main() {
     fmt.Printf("Hello World\n")
 }
 
+
+// print helloworld
 !go run helloworld.go
 
 ```
